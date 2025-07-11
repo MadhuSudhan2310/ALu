@@ -1,0 +1,31 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 56px; /* Offset for fixed navbar */
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg');
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+
+/* Card Hover Effects */
+.card {
+  transition: all 0.3s ease;
+  border: none;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Button Styling */
+.btn-outline-primary {
+  border-width: 2px;
+}
